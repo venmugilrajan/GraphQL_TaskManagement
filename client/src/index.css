@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #777;
+}
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.child-div {
+  width: 380px;
+  background: white;
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+.child-div h1 {
+  color: #6c3cc7;
+  font-size: 22px;
+}
+form {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+form input {
+  flex: 1;
+  padding: 10px;
+}
+.eachItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #eeeeee;
+  margin: 8px 0;
+  padding: 8px;
+}
+.eachItem h3 {
+  flex: 1;
+  text-align: left;
+}
+.strike {
+  text-decoration: line-through;
+  color: gray;
+}
